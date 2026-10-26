@@ -95,6 +95,7 @@ section h3:first-of-type { margin-top: 28px; }
 .copy.is-done { border-color: var(--accent); }
 
 figure { margin: 8px 0 0; }
+.post-media { margin: 16px 0 0; }
 figure img { width: 100%; height: auto; display: block; border-radius: var(--radius); border: 1px solid var(--line); }
 figcaption { color: var(--muted); font-size: 14px; margin-top: 10px; }
 
