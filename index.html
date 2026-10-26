@@ -40,8 +40,7 @@
           <li><a href="#persona">Adapting the style to the persona</a></li>
           <li><a href="#angle">Why this angle</a></li>
           <li><a href="#distribution">Built for organic reach and paid boosts</a></li>
-          <li><a href="#platforms">Why each platform gets its own version</a></li>
-          <li><a href="#process">How I made it, and where AI helped</a></li>
+          <li><a href="#process">How I made it</a></li>
           <li><a href="#measure">How I'd measure it</a></li>        </ol>
       </li>
     </ol>
@@ -115,48 +114,22 @@
     <p>His most viral posts are lowercase one-liners like "startups should not be building coffee shops" (126k views). They work for founders and engineers on X, and they're the wrong register for a CTO deciding where thousands of agents will run. The posts I proposed aim to show up with Vasek's unique perspective in front of potential buyers, not just meme consumers.</p>
 
     <h3 id="angle">Why this angle</h3>
-    <p>Every company selling agent infrastructure can say "agents need real computers." Only E2B can say it has run 2 billion sandboxes and learned what an agent will need before it starts. That's why the claim comes first: no competitor and no in-house team can copy it.</p>
-    <p>As product marketing, the post does three jobs:</p>
-    <ul>
-      <li><strong>It moves E2B out of the commodity comparison</strong> (boot time, price per vCPU-hour), the same one Vasek's essay argues against.</li>
-      <li><strong>It gives buyers a new evaluation criterion that E2B wins:</strong> "how many agents like yours have you run?" The "us included" makes it read as a fair standard, not a pitch.</li>
-      <li><strong>It backs the category E2B already claims,</strong> The AI Agent Cloud, with proof instead of adjectives.</li>
-    </ul>
-    <p>Genspark's CTO handles the build-vs-buy objection in his own words. The closing question asks practitioners what broke in production, and their answers carry the post into their own networks, which is the same buyer audience.</p>
+    <p>Any agent-infrastructure company can say "agents need real computers." Only E2B can say it has run 2 billion sandboxes and learned what an agent will need before it starts. Leading with that claim moves the conversation away from boot time and price per vCPU-hour. It gives buyers a new question that E2B wins ("how many agents like yours have you run?") and backs The AI Agent Cloud category with proof. Genspark's CTO handles build vs. buy in his own words.</p>
 
     <h3 id="distribution">Built for organic reach and paid boosts</h3>
-    <p>The posts are designed to work twice.</p>
-    <ol>
-      <li><strong>Organically,</strong> where Vasek's account already outperforms the brand: about 1.7 to 1.8x the median engagement on both LinkedIn and X.</li>
-      <li><strong>As paid amplification.</strong> LinkedIn's Thought Leader Ads let E2B put budget behind Vasek's own post and target it by job title, company size, or a list of target accounts. The post reaches exactly the enterprise audience we want and still reads like a founder talking. That's why I kept out everything that weakens a boosted post: no link in the body, no launch language, no milestone that goes stale, and an image that tells the story on its own.</li>
-    </ol>
-    <p>Organic tests the message. Paid scales the version that works into the accounts that matter.</p>
+    <p>Vasek's account already gets about 1.7 to 1.8x the brand's median engagement, so the posts start there. LinkedIn Thought Leader Ads then let us put budget behind his post and target it by title, company size, or account list. That's why the copy has no link, no launch language, and no milestone that goes stale. LinkedIn carries the full argument for buyers, and X carries the same idea in 278 characters for engineers at the labs. Organic tests the message, and paid scales the winner into the accounts that matter.</p>
 
-    <h3 id="platforms">Why each platform gets its own version</h3>
+    <h3 id="process">How I made it</h3>
+    <p>I ran this as an agentic workflow, with me as the editor:</p>
     <ul>
-      <li><strong>LinkedIn</strong> is where enterprise buyers and the people who approve purchases spend time. It gets the full argument in about 200 words, with a 95-character first line that works alone above the "see more" cutoff.</li>
-      <li><strong>X</strong> is where engineers at the labs and the next wave of founders spend time. It gets the same idea in 278 characters, with one line people can quote.</li>
+      <li>Claude Code and Apify to pull and analyze 411 of Vasek's and E2B's posts, plus his long-form writing</li>
+      <li>Claude for drafts, tied to a fact list with a source for every number</li>
+      <li>a second AI agent as an independent reviewer, until it had nothing left to flag</li>
     </ul>
-
-    <h3 id="process">How I made it, and where AI helped</h3>
-    <p>I ran this the way I'd want to run content at E2B: as an agentic workflow, with me as the editor.</p>
-    <ul>
-      <li><strong>Research:</strong> Claude Code as my workbench, and Apify to pull 411 original posts from Vasek's and E2B's accounts on LinkedIn and X (about $0.30 of data). I also read his blog posts and a 14,000-word podcast transcript.</li>
-      <li><strong>Analysis:</strong> a small voice-analysis toolkit I built, which shows what performs for Vasek, what doesn't, and where the gaps are.</li>
-      <li><strong>Drafting:</strong> drafts written with Claude against a fact list, so every number traces to a public E2B or Vasek source.</li>
-      <li><strong>Review:</strong> a second AI agent working as a strict, independent reviewer. It never wrote copy, only scored it. I went eight rounds, until it had nothing left to flag.</li>
-      <li><strong>Judgment:</strong> mine. I picked the audience and the angle, threw out drafts that drifted into sales copy, and made the final edits.</li>
-    </ul>
-    <p>I've since packaged the workflow so it can run every week.</p>
+    <p>The angle, the audience, and the final edits are mine, and the workflow is packaged to run weekly.</p>
 
     <h3 id="measure">How I'd measure it</h3>
-    <ul>
-      <li><strong>Reach and attention:</strong> impressions and engagement from target titles and accounts (LinkedIn's audience breakdowns show this), growth in followers who match the buyer profile, profile visits, and clicks from the essay to "Talk to an engineer."</li>
-      <li><strong>Message:</strong> an A/B test of the hook against a sharper boot-time version, to learn which framing pulls enterprise readers.</li>
-      <li><strong>Paid:</strong> cost per engaged buyer, compared with E2B's brand ads.</li>
-      <li><strong>Pipeline:</strong> within 60 to 90 days, pipeline in the CRM influenced by the accounts that engaged.</li>
-      <li><strong>Series:</strong> the same thesis from new angles in the weeks after: keys the agent never sees, build vs. buy, and the 3B milestone.</li>
-    </ul>
+    <p>Engagement from target titles and accounts, cost per engaged buyer on the boosted version, and pipeline influenced by those accounts within 60 to 90 days.</p>
   </section>
 
 </main>
