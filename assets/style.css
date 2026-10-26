@@ -107,6 +107,8 @@ li { margin: 6px 0; }
   font-size: 19px; font-weight: 600;
 }
 
+.page-end { border: 0; border-top: 2px solid var(--accent); margin: 56px 0 96px; }
+
 .site-footer { color: var(--muted); font-size: 14px; padding-top: 48px; padding-bottom: 56px; }
 .site-footer p { margin: 6px 0; }
 .site-footer a { color: var(--muted); }
